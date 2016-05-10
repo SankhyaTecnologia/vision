@@ -1,15 +1,10 @@
 package br.com.sankhya.dashviewer;
 
 import org.apache.cordova.CordovaActivity;
-import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
-import org.apache.cordova.CordovaWebView;
 
-import android.annotation.TargetApi;
 import android.content.Intent;
-import android.os.Build;
 import android.util.Log;
-import android.webkit.CookieManager;
 
 public class DashViewerServicePlugin extends CordovaPlugin {
 
